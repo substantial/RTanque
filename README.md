@@ -32,7 +32,9 @@ RTanque is based on the Java project [Robocode](http://robocode.sourceforge.net/
 
 ## Requirements
 
- * The [Gosu](https://github.com/jlnr/gosu) library used for rendering has some dependencies. Use the [Gosu getting started](https://github.com/jlnr/gosu/wiki/Getting-Started-on-Linux) to resolve any for your system.
+ * The [Gosu](https://github.com/jlnr/gosu) library used for rendering has some dependencies.
+   * For OSX, the sdl2 library is required. If Homebrew is available, install sdl2 via `brew install sdl2`. Otherwise, install it from [here](https://www.libsdl.org/download-2.0.php).
+   * For other OSs, Gosu dependency information can be found at the [Gosu wiki](https://github.com/jlnr/gosu/wiki/Getting-Started-on-Linux).
  * Ruby 2.0.0 or 1.9.3 (tested on 1.8.7 and 1.9.2)
    * Note: later versions of Ruby (i.e. 2.3.3) do not work. Please use Ruby 2.0.
 
